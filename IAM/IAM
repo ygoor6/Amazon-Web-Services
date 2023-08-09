@@ -1,0 +1,10 @@
+IAM - Identity and Access Management:
+    Possível especificar quem ou o que pode acessar serviços e recursos na AWS, gerenciar permissões e analisar o acesso para refinar as permissões.
+
+    É acessado via:
+        Console, CLI ou API -> IAM e através dele, é possível acessar a conta para criar usuários, grupos, regras e usuários federados e gerenciar aplicativos.
+            A partir dele é possível criar ou gerenciar as políticas.
+                Identity Base Policy:
+                    Controlam quais ações cada identidade pode realizar, em quais recursos e em que condições
+                Resource Base Policy:
+                    Controlam quais ações uma entidade principal pode realizar nesses recursos, e em que condições
