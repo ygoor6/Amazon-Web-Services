@@ -1,0 +1,23 @@
+O que é um serviço?
+    Qualquer ítem que pode ser iniciado, configurado e finalizado. Exemplo, EC2 serviço para servidores virtuais.
+
+Principais serviços AWS
+    Computação:
+        EC2 - Elastic Compute Cloud
+        ECS - Elastic Container Service
+        EKS - Elastic Kubernetes Service
+    Armazenamento:
+        S3 - Simple Storage Service
+        EBS - Elastic Block Store
+    Redes:
+        VPC - Virtual Private Cloud
+        Direct Connect - Conexão de rede dedicada para AWS
+        ELB - Elastic Load Balacing - Distribuir o tráfego entre vários destinos
+    Bancos de dados:
+        Aurora - DB relacional gerenciado de alta performance
+        DynamoDB - NoSQL gerenciado
+        RDS - Relational Database Service - Serviço gerenciado de banco de dados relacionais (MySQL, PostgreSQL, Oracle, SQL Server e Maria DB)
+
+Produtos da nuvem AWS:
+https://aws.amazon.com/pt/products/?aws-products-all.sort-by=item.additionalFields.productNameLowercase&aws-products-all.sort-order=asc&awsf.re%3AInvent=*all&awsf.Free%20Tier%20Type=*all&awsf.tech-category=*all
+
