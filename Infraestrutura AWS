@@ -1,0 +1,21 @@
+Infraestrutura Global AWS
+
+    Regiões:
+        Locais físicos em todo o mundo onde são agrupados os datacenters
+        Possui no mínimo 3 AZs isoladas e separadas fisicamente em uma área geográfica
+        Cada região tem uma lista de serviços disponíveis
+        Atualmente com 31 regiões lançadas, cada uma com várias zonas de disponibilidade (AZs)
+
+    Zonas de disponibilidade:
+        Pertencem a uma determinada região, cada região possui no mínimo 2 AZ's. Que são data centers isolados e conectados por meios de links de alta velocidade, baixa latência e alta redundância
+        Precisam estar em um raio de 100km
+        Atualmente com 99 zonas de disponibilidade
+
+    Zonas locais:
+        As zonas locais da AWS aproximam a computação, o armazenamento, o banco de dados e outros produtos da AWS selecionados dos usuários finais. Com as zonas locais da AWS, você pode executar facilmente aplicativos altamente exigentes que exigem latências em milissegundos de um dígito para seus usuários finais, como criação de conteúdo de mídia e entretenimento, jogos em tempo real, simulações de reservatórios, automação de projetos eletrônicos e machine learning.
+
+    Zonas do Wavelength:
+        O AWS Wavelength permite que os desenvolvedores criem aplicações com latências de um dígito para dispositivos móveis e usuários finais. O AWS Wavelength leva os serviços da AWS até a borda da rede 5G, minimizando a latência de conexão de um dispositivo móvel a um aplicativo. O tráfego de aplicativos pode acessar servidores de aplicativos em execução nas Zonas do Wavelength sem sair da rede da operadora de celular.
+
+    Outspots:
+        Leva produtos, infraestrutura e modelos operacionais nativos da AWS a praticamente qualquer datacenter, espaço de colocalização ou instalações on-premises.
