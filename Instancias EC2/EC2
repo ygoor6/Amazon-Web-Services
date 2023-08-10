@@ -1,0 +1,11 @@
+EC2 - Elastic Compute Cloud
+    Servidores de computação em nuvem, um dos principais serviços junto com o S3.
+
+    Vantagens:
+        Controle completo sobre a instância (memória, CPU, disco)
+        Segurança
+        Integrado com os Serviços AWS
+        Baixo custo para se manter
+
+    Keys (chaves):
+        Permite a conexão com o EC2 com segurança
