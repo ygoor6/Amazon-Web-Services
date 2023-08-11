@@ -1,0 +1,24 @@
+ECS - Elastic Container Service
+    Serviço de orquestração de contêineres totalmente gerenciado que simplifica a implantação, o gerenciamento e a escalabilidade de aplicações conteinerizadas
+
+    Pode ser utilizado dois ambientes:
+        ECS EC2 - O cliente é responsável pelo gerenciamento da EC2
+        ECS Fargate - Serverless, ou seja, o cliente não precisa gerenciar a instância
+
+    Dentro do ECS, há um serviço chamado ECS Container Instance e nele estão alocados as configurações (task definition)
+
+    Nomenclaturas AWS:
+    Task = Container
+    Image = Registry - são gerenciados pelo ECR - Elastic Container Registry
+
+Docker
+    O Docker é uma plataforma de software que permite a criação, o teste e a implantação de aplicações rapidamente. O Docker cria pacotes de software em unidades padronizadas chamadas de contêineres que têm tudo o que o software precisa para ser executado, inclusive bibliotecas, ferramentas de sistema, código e runtime
+
+    Estrutura
+        Antes:
+            Server > Hypervisor > VMs > SO > App
+        Depois:
+            Server > SO > Docker Image > Containers (código, config, dependências)
+                Benefícios: 
+                Economia de recursos, pois necessita alimentar apenas um SO
+                Mais rápido
