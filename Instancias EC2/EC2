@@ -9,3 +9,11 @@ EC2 - Elastic Compute Cloud
 
     Keys (chaves):
         Permite a conexão com o EC2 com segurança
+
+Acesso a S3 via EC2
+    É possível um EC2 acessar o conteúdo de um S3 por duas vias:
+        IAM User:
+            Onde é criado um usuário na instância e a partir dele é utilizado a credencial, porém menos seguro, pois as credenciais ficam salvas na compute.
+
+        IAM Roles:
+            Criado uma role (função) com a permissão que se espera, por exemplo S3 Full Access e atribuído a instância a função do IAM.

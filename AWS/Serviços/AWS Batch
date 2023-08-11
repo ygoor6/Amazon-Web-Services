@@ -1,0 +1,18 @@
+AWS Batch
+    Serviço que executa workloads de computação em lote.
+
+    Fluxo
+    AWS Batch > Inicia job
+        Job:
+            Os jobs são a unidade de trabalho iniciada por AWS Batch. Os jobs podem ser invocados como aplicativos em contêiner que são executados em instâncias de contêiner do Amazon ECS em um cluster ECS.
+
+        Job definition:
+            As definições de jobs do AWS Batch especificam como os jobs devem ser executados. Embora cada tarefa deva fazer referência a uma definição de tarefa, muitos parâmetros que são especificados na definição de tarefa podem ser substituídos em tempo de execução.
+        
+        Filas de jobs:
+            Os jobs são enviados para uma fila de jobs onde eles residem até serem programados para execução em um ambiente de computação.
+
+        Batch Compute Environment:
+            As filas de jobs são mapeadas para um ou mais ambientes de computação. Os ambientes computacionais contêm as instâncias de contêiner do Amazon ECS que são usadas para executar jobs em lote em contêineres. Um ambiente computacional específico também pode ser mapeado para uma ou mais de uma fila de jobs
+
+Obs.: Quando é criado um job, pode ser utilizado shell scripts ou docker images.
