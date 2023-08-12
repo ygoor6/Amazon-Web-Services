@@ -1,0 +1,8 @@
+EBS - Elastic Block Storage
+    Serviço de armazenamento em blocos, escalável e de alta performance projetado para o Elastic Compute Cloud (EC2)
+
+    Ao criar uma instância EC2, o disco de armazenamento não está fisicamente na compute e sim em um sistema de armazenamento da AWS
+
+Obs 1.: EBS deve estar na mesma AZ do EC2, para obter o armazenamento em outra AZ, é necessário realizar um snapshot para a outra AZ.
+
+Obs 2.: Um volume EBS pode ser anexado a até 16 instâncias do Linux criadas no Sistema Nitro que estejam na mesma zona de disponibilidade e é aceito exclusivamente em volumes SSD de IOPS provisionadas (io1 e io2)

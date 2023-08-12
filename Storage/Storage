@@ -1,0 +1,34 @@
+A AWS possui alguns serviços de armazenamento:
+    S3 - Simple Storage Service
+    Amazon Glacier
+    EFS - Elastic File System
+    Snowball
+    Cloudfront
+    Storage Gateway
+    EBS - Elastic Block Store
+    Instance Store - EC2
+
+Cada serviço possui uma finalidade, tendo alguns casos de uso:
+    Migrar aplicações para AWS
+    Criar data lakes
+    Modernizar o desenvolvimento de aplicações
+    Backup para o armazenamento da AWS
+    Arquivar na nuvem
+    Processar dados em locais de borda desconectados
+
+Categorias de Storage
+    
+    Block Storage (armazenamento em blocos):
+        Arquivos guardados em volumes/formatos de blocos
+        Volumes (SSD, HD, USB)
+        Necessário ter uma baixa latência
+        DAS - Direct Attached Storage
+    
+    File Storage:
+        Armazenamento de arquivos
+        Compartilhamento
+        NAS - Network Attached Storage
+
+    Object Storage:
+        Armazenamento de objetos com ID único ou endereçamento (flat address) -> URL
+        Metadata
