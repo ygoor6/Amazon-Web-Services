@@ -1,0 +1,13 @@
+S3 - Simple Storage Service
+    Armazenamento de objetos construído para armazenar e recuperar qualquer volume de dados de qualquer local
+
+    Durabilidade - 99,99999999999 (11 9s)
+    Disponibilidade - 99,95
+
+    Características:
+        O serviço S3 não tem limite de armazenamento
+        5 GB de armazenamento padrão do S3 (12 meses)
+        É necessário criar um bucket (balde/pasta) com nome único universal (nome globalmente único)
+        
+        Objeto:
+            0 até 5TB

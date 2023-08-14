@@ -6,3 +6,37 @@ EBS - Elastic Block Storage
 Obs 1.: EBS deve estar na mesma AZ do EC2, para obter o armazenamento em outra AZ, é necessário realizar um snapshot para a outra AZ.
 
 Obs 2.: Um volume EBS pode ser anexado a até 16 instâncias do Linux criadas no Sistema Nitro que estejam na mesma zona de disponibilidade e é aceito exclusivamente em volumes SSD de IOPS provisionadas (io1 e io2)
+
+Tipos de EBS
+    HDD:
+        Mais lento
+        Mais barato
+    SSD:
+        Mais rápido
+        Mais caro
+
+    Uso Geral (General Purpose - SSD)
+        gp2 e gp3:
+            Casos de uso - Desktops, DB Microsoft SQL e Oracle, apps de baixa latência
+            Tamanho - 1GB à 16TB
+    
+    IOPS Provisionadas
+        io1 e io2:
+            Maior desempenho projetados para suas workloads críticas, intensivas em IOPS e em throughput que exigem baixa latência
+            Casos de uso - Uso intenso de NoSQL e DBs relacionais
+            Tamanho - 4GB à 16TB
+        io2 Black Express:
+            Casos de uso - Uso intenso de NoSQL e DBs relacionais e cargas de trabalho transacionais
+            Tamanho - 4GB à 64TB
+
+    Throughput (taxa de transferência)
+        st1:
+            Armazenamento magnético de baixo custo que define a performance em termos de taxa de transferência em vez de IOPS
+            Casos de uso - Big data, processamento de logs
+            Tamanho - 125GB à 16TB
+    
+    Cold HDD (armazenamento frio)
+        sc1:
+            Armazenamento magnético de baixo custo que define a performance em termos de throughput em vez de IOPS. Com um limite de throughput mais baixo do que os volumes de HDD otimizado para throughput (st1), os volumes sc1 são adequados para grandes workloads sequenciais de dados frios
+            Casos de uso - Armazenamento orientado a throughput para dados acessados com pouca frequência
+            Tamanho - 125GB à 16TB
