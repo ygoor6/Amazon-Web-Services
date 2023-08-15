@@ -1,0 +1,17 @@
+AMI - Amazon Machine Images
+    É uma imagem compatível e mantida pela AWS, que fornece as informações necessárias para iniciar uma instância.
+
+    Possui imagens:
+        Públicas:
+            Fornecedias pela AWS e por empresas terceiras (third party)
+
+        Privadas:
+            Imagens do cliente. Por exemplo, uma instância EC2 existente com as configurações já personalizadas.
+            Sendo possível realizar uma imagem da EC2 e a partir dela, criar uma nova instância EC2 
+
+    Uma AMI inclui o seguinte:
+        Um ou mais snapshots do Amazon Elastic Block Store (Amazon EBS) ou, para AMIs com suporte de armazenamento de instâncias, um modelo para o volume raiz da instância (por exemplo, um sistema operacional, um servidor da aplicação e aplicações).
+        
+        Permissões de execução que controlam quais contas da AWS podem usar a AMI para executar instâncias.
+
+        Um mapeamento de dispositivos de blocos que especifica os volumes a serem anexados à instância quando ela for executada.

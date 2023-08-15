@@ -11,3 +11,38 @@ S3 - Simple Storage Service
         
         Objeto:
             0 até 5TB
+
+    ACL - Access List (lista de acesso)
+        Desligada, não é possível posteriormente verificar quem pode acessar
+
+Classes de Armazenamento do S3
+    Forma de cobranças de cada tipo de armazenamento da AWS
+
+    Standard (Padrão)
+        Armazenamento de objetos com altos níveis de resiliência, disponibilidade e performance para dados acessados com frequência. Como fornece baixa latência e alto throughput
+
+    Intelligent-Tiering (Acesso desconhecido ou dinâmico)
+        Monitora os padrões de acesso e move automaticamente os objetos que não foram acessados para níveis de acesso de custo inferior
+
+    Standard-Infrequent Access (S3 Standard-IA)
+        Acesso infrequente
+        Recomendado para armazenamento de longa duração, backups e data store
+
+    One Zone-Infrequent Access (S3 One Zone-IA)
+        Ao contrário de outras classes de armazenamento do S3, que armazenam dados em no mínimo três Zonas de disponibilidade (AZs), a S3 One Zone-IA armazena dados em uma única AZ, com um custo 20% inferior ao S3 Standard-IA. A classe S3 One Zone-IA é ideal para clientes que querem uma opção de menor custo para dados acessados com pouca frequência, mas não precisam da disponibilidade e da resiliência S3 Standard ou S3 Standard-IA
+
+    Glacier Instant Retrieval
+        Armazenamento de custo mais baixo para dados de longa duração, que raramente são acessados
+
+    Glacier Flexible Retrieval
+        Armazenamento de baixo custo, custo até 10% menor (do que o S3 Glacier Instant Retrieval), para dados de arquivo que são acessados 1 a 2 vezes por ano e recuperados de forma assíncrona
+
+    Glacier Deep Archive
+        A classe de armazenamento com custo mais baixo projetada para retenção de dados em longo prazo que serão mantidos por 7 a 10 anos
+        
+        Tempo de recuperação de até 12 horas
+
+    S3 Outposts
+        Armazenamento de objetos para seu ambiente de AWS Outposts on-premises
+
+Obs.: É cobrado a alteração de classes de armazenamento de objetos no S3
