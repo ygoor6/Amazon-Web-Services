@@ -46,3 +46,21 @@ Classes de Armazenamento do S3
         Armazenamento de objetos para seu ambiente de AWS Outposts on-premises
 
 Obs.: É cobrado a alteração de classes de armazenamento de objetos no S3
+
+Versionamento S3
+    Versionamento no Amazon S3 é um meio de manter diversas variantes de um objeto no mesmo bucket. Você pode usar o recurso S3 Versioning para preservar, recuperar e restaurar todas as versões de cada objeto armazenado em seus buckets
+
+    Exemplo, sem o versionamento ao subir um novo arquivo com a mesma nomenclatura, o anterior é apagado e o novo passa a ocupar o espaço
+
+    Cada arquivo é associado a uma ID
+
+Ciclo de vida S3 (Lifecycle)
+    Para gerenciar os objetos de maneira que sejam armazenados de maneira econômica durante todo o ciclo de vida. Uma configuração do Amazon S3 Lifecycle é um conjunto de regras que define as ações aplicadas pelo Amazon S3 a um grupo de objetos. Existem dois tipos de ações:
+        Ações de transição: 
+            Definem quando os objetos fazem a transição para outra classe de armazenamento. Por exemplo, você pode optar por fazer a transição de objetos para a classe de armazenamento S3 Standard – IA 30 dias após a criação deles ou arquivar objetos para a classe de armazenamento do S3 Glacier Flexible Retrieval um ano após a sua criação
+
+        Ações de validade:
+            Definem quando os objetos perdem a validade. O Amazon S3 exclui os objetos expirados em seu nome.
+
+Replicação de Objetos (Replication)
+    Permite a cópia automática e assíncrona de objetos nos buckets do Amazon S3. Os buckets configurados para replicação de objetos podem pertencer à mesma conta da Conta da AWS ou a contas diferentes. Os objetos podem ser replicados em um ou em vários buckets de destino. Os buckets de destino podem estar em Regiões da AWS diferentes ou na mesma região que o bucket de origem.

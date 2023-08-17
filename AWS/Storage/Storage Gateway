@@ -1,0 +1,16 @@
+Storage Gateway
+    Armazenamento na nuvem híbrida que oferece acesso on-premises a armazenamento na nuvem
+
+    Possui um sistema de cache, que possibilita o ganho de baixa latência
+
+    É um appliance, um servidor feito pela AWS que faz a conexão segura com o S3
+
+    Pode ser utilizado como 3 opções
+        File Gateway
+            Utiliza o mesmo sistema de armazenamento do S3, ou seja, a aplicação visualiza como se fosse o serviço S3
+
+        Volume Gateway
+            A aplicação visualiza como se sosse um block Storage
+        
+        Backup Gateway
+            Pode ser escolhido como block ou file storage

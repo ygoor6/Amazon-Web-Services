@@ -17,3 +17,19 @@ Acesso a S3 via EC2
 
         IAM Roles:
             Criado uma role (função) com a permissão que se espera, por exemplo S3 Full Access e atribuído a instância a função do IAM.
+
+Opções de compra de instância
+    Sob demanda:
+        Pague pelas instâncias que você iniciar
+
+    Instâncias Reservadas:
+        Reserva de um tipo de instância e a região, por um período de vigência de 1 ou 3 anos
+    
+    Hosts dedicados:
+        Pegue pelo host físico que seja totalmente dedicado à execução das instâncias. Permite usar as licenças de softwares
+
+    Instância dedicada:
+        As instâncias dedicadas são instâncias EC2 executadas em um hardware dedicado a um único cliente
+
+    Instâncias spot:
+        Usa capacidade adicional do EC2 que está dispinível por um valor mais baixo que o preço sob demanda

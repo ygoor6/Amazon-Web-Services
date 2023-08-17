@@ -1,0 +1,20 @@
+S3 - Glacier
+    Classes de armazenamento de longo prazo, seguras e duráveis para arquivamento de dados com o menor custo e milissegundos de acesso
+
+    Criada para armazenamento de arquivos que não irão ser acessados por um logno espaço de tempo (archive)
+
+    Dentro do S3 Glacier, existem dois tipos de classes:
+        Glacier:
+            Possível solicitar a recuperação dos objetos com um tempo menor
+            Analogia: Geladeira
+
+        Glacier Deep Archive:
+            Tempo mais demorado para solicitar a recuperação
+            Mais barato
+            Analogia: Freezer
+
+Obs.:
+    As duas classes possuem as características
+    *S3 Object Lock
+    *S3 Glacier Vault Lock
+        Garantia de que o objeto não pode ser removido, alterado por um determinado tempo
