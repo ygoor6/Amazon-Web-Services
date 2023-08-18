@@ -1,0 +1,24 @@
+Tipos de Serviços na Cloud
+    IaaS - Infraestrutura como serviço (Infrastructure as a Service)
+        Componentes básicos da TI em nuvem e, geralmente, dá acesso a recursos de rede e computadores (virtual ou em hardware dedicado), além de fornecer espaço para o armazenamento de dados
+        Exemplo: Instância EC2
+
+    PaaS - Plataforma como serviço (Platform as a Service)
+        Não precisa mais gerenciar a infraestrutura subjacente (geralmente, hardware e sistemas operacionais) e pode se concentrar na implantação e no gerenciamento de aplicações
+        Exemplo: Banco de dados
+
+    SaaS - Software como serviço (Sofrtare as a Service)
+        Oferece um produto completo, executado e gerenciado pelo provedor de serviços. Na maioria dos casos, quando as pessoas mencionam SaaS, estão falando de aplicações de usuários finais
+        Exemplo: Office 365
+
+Tipos de Cloud
+    Pública
+        Disponilibiza os serviços para qualquer usuário com acesso a internet
+        Disponibilizado ao público os serviços e não os dados
+        Menor custo
+    Privada
+        Alugar o servidor físico (exclusividade)
+        Maior custo
+    Híbrida
+        Combinação entre Público e Privado
+        Exemplo: App na cloud pública e o DB na privada

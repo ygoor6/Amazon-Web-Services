@@ -1,0 +1,21 @@
+Infraestrutura do Well-Architected
+    A AWS Well-Architected ajuda arquitetos e desenvolvedores de nuvem a construir infraestruturas seguras, resilientes, eficientes e de alta performance para aplicações e workloads.
+    
+    Baseado em seis pilares:
+        Excelência operacional:
+            Execução e no monitoramento de sistemas e na melhoria contínua de processos e procedimentos. Os principais tópicos incluem automação de alterações, reação a eventos e definição de padrões para gerenciar as operações diárias
+        
+        Segurança:
+            Proteção de informações e sistemas. Os principais tópicos incluem confidencialidade e integridade de dados, gerenciamento de permissões de usuário e estabelecimento de controles para detectar eventos de segurança
+
+        Confiabilidade:
+            Workloads que executam as funções pretendidas e na recuperação rápida de falhas para atender às demandas. Os principais tópicos incluem projeto de sistemas distribuídos, planejamento de recuperação e adaptação a mudanças nos requisitos
+        
+        Eficiência de performance:
+            Alocação estruturada e simplificada de recursos de TI e computação. Os principais tópicos incluem seleção dos tipos e tamanhos certos dos recursos otimizados para os requisitos de workload, monitoramento de performance e manutenção da eficiência à medida que as necessidades comerciais evoluem
+        
+        Otimização de custos:
+            Evitar custos desnecessários. Os principais tópicos incluem compreensão dos gastos ao longo do tempo e controle da alocação de fundos, seleção do tipo e da quantidade certa de recursos, além da escalabilidade para atender às necessidades de negócios sem gastos excessivos
+        
+        Sustentabilidade:
+            Minimizar os impactos ambientais da execução de workloads em nuvem.

@@ -1,0 +1,15 @@
+Interação com a AWS
+    Em vez de gerenciar a infraestrutura fisicamente, você a gerencia logicamente por meio da interface de programação de aplicações (API) da AWS. Ao criar, excluir ou alterar qualquer recurso da AWS, você usa chamadas de API para a AWS
+
+CLI - Command Line Interface
+    
+Cloud Shell - CLI na Cloud
+    
+
+Maneiras de listar e visualizar os serviços AWS
+    1 - Commando Line Interface (AWS CLI):
+            Instalada em desktop
+    2 - Cloud Shell:
+            CLI direto na Cloud AWS
+    3 - Console de Gerenciamento AWS:
+            Console na Web acessado em um navegador
