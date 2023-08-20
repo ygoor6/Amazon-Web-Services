@@ -1,0 +1,26 @@
+Modelo de Responsabilidade Compartilhada
+
+AWS: é responsável pela segurança "DA" cloud:
+    A AWS é responsável por proteger a infraestrutura que executa os serviços oferecidos na nuvem AWS. Essa infraestrutura é composta por hardware, software, redes e instalações.
+
+    Responsabilidades:
+        Computação
+        Armazenamento
+        Banco de dados
+        Redes
+        Equipamentos físicos
+        Regiões
+        Zonas de disponibilidade
+        Infraestrutura Global da AWS
+
+Cliente: é responsável pela segurança "NA" cloud:
+    O cliente é responsável pela segurança daquilo que ele coloca na nuvem AWS, ele controla quais recursos de segurança quer implementar para proteger seu conteúdo, suas aplicações, redes e sistemas, da mesma forma que ele faria utilizando seu datacenter tradicional.
+
+    Responsabilidades:
+        Dados do cliente
+        Controle de custos
+        Aplicações e plataforma
+        Configuração do sistema operacional, rede e firewall
+
+Modelo de Responsabilidade Compartilhada AWS:
+https://aws.amazon.com/pt/compliance/shared-responsibility-model/

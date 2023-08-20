@@ -1,0 +1,11 @@
+AWS Lambda
+    Serviço computacional do tipo sem servidor (serverless), ele executa código quando acionado por um evento (gatilho), o próprio serviço é quem gerencia automaticamente os recursos necessários para você (CPU, memória, SO).
+
+    Executado em diversas linguagens de programação, Java, Python, Go e entre outras.
+
+    Benefícios
+        As principais vantagens são o custo e não necessidade de administração da infraestrutura. Sendo pago apenas pelo tempo utilizado para rodar (executar) as suas funções.
+
+        Por exemplo, se rodar uma função e ela demora apenas 500ms para ser executada, você irá pagar por 500ms de execução da função. Além de não precisar gerenciar o sistema operacional, aplicar patches, atualizações ou se preocupar com espaço em disco.
+
+Obs.: Caso o código demore mais que 15 minutos para execução, inviabilizaria o uso do Lambda, sendo viável partir para container, EC1, EC2 ou EKS.

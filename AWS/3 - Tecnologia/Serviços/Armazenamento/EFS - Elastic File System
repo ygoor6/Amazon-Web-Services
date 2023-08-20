@@ -1,0 +1,13 @@
+Amazon Elastic File System (EFS)
+    Serviço de armazenamento de arquivos para uso em ambientes que precisam de armazenamento escalável do tipo filesystem, com a finalidade de armazenamento compartilhado pela rede.
+
+    É gerenciado e caracterizado como serverless, ou seja, não precisa administrar nenhum tipo de servidor, sistema operacional, capacidade de CPU ou memória para utilizá-lo.
+
+    Funcionalidade
+        Pode provisionar o EFS na região e VPC desejadas, criar os pontos de montagem que basicamente são placas de redes alocadas nas subnets em que se planeja montar a unidade de filesystem.
+
+        Possui classes de armazenamento semelhante ao S3.
+
+    Responsabilidade
+        Backup:
+            Por conta do cliente.

@@ -1,0 +1,15 @@
+AWS Trusted Advisor
+    Serviço que disponibiliza recomendações automatizadas e orientações baseadas nas melhores práticas da AWS. Com foco em melhorar a segurança, reduzir custos e aumentar o desempenho das cargas de trabalho.
+
+    Funcionalidade e benefícios
+        Segurança:
+            Analisa configurações de segurança, identificar vulnerabilidades e oferece orientações para fortalecer a postura de segurança.
+
+        Performance:
+            Oferece recomendações para melhorar o desempenho das aplicações, como otimização de banco de dados e balanceamento de carga.
+
+        Otimização de Recursos:
+            Ajuda a identificar recursos subutilizados e sugere ações para otimizar o ambiente, economizando dinheiro e aumentando a eficiência.
+
+        Redução de custos:
+            Sugere correções, fornecendo insights sobre gastos, ajudando a reduzir custos operacionais.

@@ -1,0 +1,9 @@
+Amazon Route 53
+    É um serviço web da AWS utilizado para gerenciar DNS (nomes de domínio), ele serve tanto para gerenciar um DNS existente ou inclusive, podemos registrar nomes de domínios direto por ele (assim como no registro.br por exemplo).
+
+    Pode ser configurado regras baseadas em latência, responder com múltiplos IPs, adicionar uma camada de chegagem e caso o destino esteja indisponível, aplicar o failover e redirecionar para outro destino.
+
+    Totalmente gerenciado e altamente disponível, executado na borda da AWS (Edge Locations).
+
+        Route 53 Resolver:
+            Habilita a possibilidade de utilizar DNS públicos, privados e até configurações híbridas entre ambientes on-premises e nuvem da AWS.

@@ -1,0 +1,29 @@
+Amazon GuardDuty
+    Serviço de detecção de ameaças gerenciado pela AWS, projetado para ajudar a proteger os recursos e os ambientes para atividades suspeitas e maliciosas em contas e recursos da AWS.
+
+    Ele analisar automaticamente os dados de log e tráfego de rede em busca de atividades maliciosas ou suspeitas, como invasões, comportamento de malware e tentativas de comprometimento de contas, brute force, ataques de DNS, atividade de mineração de criptomoedas, entre outros.
+
+    Funcionamento
+        Monitoramento automático:
+            Habilitado após a ativação automaticamente, eliminando a necessidade de configurações complexas
+
+        Integração com dados de log e telemetria:
+            Analisa automaticamente os dados de log e telemetria da AWS, incluindo VPC Flow Logs, CloudTrail e informações de DNS.
+
+        Detecção de padrões suspeitos:
+            O serviço identifica comportamentos que desviam dos padrões normais, como tentativas de acesso não autorizado, varreduras de portas e comunicação com domínios maliciosos.
+
+        Inteligência de ameaças:
+            Utiliza feeds de dados de inteligência de ameaças para melhorar sua capacidade de identificar atividades maliciosas conhecidas.
+        
+        Pontuação de risco:
+            A cada evento detectado é atribuído uma pontuação de risco, permitindo que os usuários priorizem as ações de resposta com base na gravidade.
+
+        Alertas e notificações:
+            Gera alertas e notificações quando atividades suspeitas são detectadas, permitindo que as equipes de segurança tomem medidas apropriadas.
+
+        Integração com outros serviços:
+            Pode ser integrado com outros serviços de segurança da AWS, como o CloudWatch para possibilitar a criação de fluxos de trabalho personalizados de resposta a incidentes.
+
+        Visibilidade em nível de conta:
+            Fornece insights sobre todas as contas e recursos da AWS, permitindo uma visão abrangente das atividades maliciosas em todo ambiente.

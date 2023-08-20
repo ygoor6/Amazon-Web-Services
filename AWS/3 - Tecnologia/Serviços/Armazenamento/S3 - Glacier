@@ -1,0 +1,18 @@
+S3 - Glacier
+    Classe de armazenamento do S3 para arquivos que precisam ser guardados por anos, ou seja, arquivamento de dados. Sendo um arquivamento de baixíssimo custo.
+
+    Classes de armazenamento do S3 Glacier
+        S3 Glacier Instant Retrieval:
+            Usado para arquivar dados raramente acessados, mas quando é necessário acessar, ele pode ser recuperado do arquivamento em milissegundos.
+
+        S3 Glacier Flexible Retrieval:
+            Usado para arquivar dados onde caso seja necessário recuperá-los, é preciso aguardar alguns minutos ou horas para acessar os dados.
+            Por padrão leva de 5 a 12 horas. Obs.: Pode ser acelerado esse prazo para o tempo de 1 a 5 minutos, porém é pago a parte por essa funcionalidade.
+
+        S3 Glacier Deep Archive:
+            Usado para arquivar dados que raramente precisam ser recuperados, quando necessário recuperar algum dado, o prazo de recuperação é de 12 horas.
+
+Obs.:
+    *S3 Object Lock
+    *S3 Glacier Vault Lock
+        Garantia de que o objeto não pode ser removido, alterado por um determinado tempo

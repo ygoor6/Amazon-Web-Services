@@ -1,0 +1,22 @@
+Planos de Suporte da AWS
+    Atualmente existem 5 diferentes planos de suporte disponíveis:
+        Basic:
+            Gratuito para todos os clientes da AWS. Atendimento básico, exemplo abrir um ticket sobre faturamento.
+        
+        Developer:
+            Recomendado em casos de testes de serviços da AWS (validação de algum MVP).
+        
+        Business:
+            Recomendado para quem tem ambientes de produção na AWS. Possui todas as verificações do AWS Trusted Advisor, tickets de suporte podem ser atendidos por telefone, chat web e conversas (24/7).
+
+        Enterprise On-Ramp:
+            Recomendado para quem tem ambientes críticos na AWS. Seus extras incluem, grupo de gerente de contas técnicas para orientações e fornecer acesso a programas de especialistas da AWS e Concierge para apoiar nas tratativas de suporte relacionados a conta.
+
+            Custo: inicia em 5.500 USD por mês.
+
+        Enterprise:
+            Recomendado para quem tem ambientes críticos na AWS. Disponibiliza o acesso a um Gerente de Contas (TAM - Technical Account Manager) e em casos críticos o atendimento a workloads de missão crítica é feito em menos de 15 minutos.
+
+            Custo: inicia em 15.00 USD por mês.
+
+Obs.: Os planos "Developer, Business ou Enterprise" contêm todos os benefícios que o Basic oferece, podendo abrir tickets de suporte, o que muda é o SLA (se você precisa de atendimento rápido precisará dos planos maiores).

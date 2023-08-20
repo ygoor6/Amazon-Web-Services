@@ -33,3 +33,11 @@ Opções de compra de instância
 
     Instâncias spot:
         Usa capacidade adicional do EC2 que está dispinível por um valor mais baixo que o preço sob demanda
+
+User Data
+    Ao iniciar é possível adicionar um código, que irá rodar na inicialização da instância.
+        Exemplo: Em um servidor Web Server, inserir o código de instalação de HTTP e habilitar.
+
+    Pode ser inserido código:
+        Como texto
+        Como arquivo

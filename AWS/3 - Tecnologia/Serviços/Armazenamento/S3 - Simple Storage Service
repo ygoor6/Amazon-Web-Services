@@ -1,5 +1,5 @@
 S3 - Simple Storage Service
-    Armazenamento de objetos construído para armazenar e recuperar qualquer volume de dados de qualquer local
+    Armazenamento de objetos construído para armazenar e recuperar qualquer volume de dados de qualquer local.
 
     Durabilidade - 99,99999999999 (11 9s)
     Disponibilidade - 99,95
