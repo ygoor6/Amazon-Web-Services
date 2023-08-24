@@ -7,3 +7,5 @@ Amazon Route 53
 
         Route 53 Resolver:
             Habilita a possibilidade de utilizar DNS públicos, privados e até configurações híbridas entre ambientes on-premises e nuvem da AWS.
+
+Obs.: Possui este nome devido que o serviço de DNS (Domain Name System) utiliza a porta 53 por padrão.

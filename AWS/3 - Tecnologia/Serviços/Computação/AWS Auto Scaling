@@ -1,0 +1,14 @@
+AWS Auto Scaling
+    Monitora os aplicativos e ajusta automaticamente a capacidade para manter um desempenho constante e previsível pelo menor custo possível. Por meio de recomendações que permitem a otimização do desempenho.
+
+    Pode ser utilizado em:
+        Frotas spot do EC2;
+        Tarefa do ECS;
+        Tabelas e índices do DynamoDB;
+        Réplicas do Aurora.
+
+    Scaling UP (escalabilidade vertical)
+        Aumentar a capacidade computacional por exemplo de uma EC2 (CPU, RAM, GNU).
+
+    Scaling Out (escalabilidade horizontal)
+        Aumentar a quantidade de instâncias (e computacional por consequência), por exemplo sair de uma instancia EC2 para duas.

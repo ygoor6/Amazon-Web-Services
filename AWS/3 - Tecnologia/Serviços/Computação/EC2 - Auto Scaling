@@ -1,0 +1,4 @@
+EC2 - Auto Scaling
+    Permite adicionar ou remover automaticamente instâncias do EC2 usando políticas de escalabilidade definidas pelo cliente.
+
+    O modelo trabalha como escalabilidade horizontal (scaling out), ou seja apenas INICIAR ou TERMINAR uma instância.
