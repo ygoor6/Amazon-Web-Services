@@ -1,0 +1,20 @@
+ELB - Elastic Load Balancing
+    Distribui automaticamente o tráfego de aplicações de entrada entre vários destinos e dispositivos virtuais em uma ou mais AZs (zonas de disponibilidade). Monitora a integridade dos destinos e roteia o tráfego apenas para destinos íntegros
+
+    Tipos de Load Balancer
+
+        ALB - Application Load Balancing:
+            Funciona na camada 7 (aplicação) do modelo OSI. Depois que o load balancer recebe a solicitação, ele avalia as regras do listener em ordem de prioridade para determinar qual regra deve ser aplicada e, em seguida, seleciona um destino no grupo de destino para a ação da regra.
+
+            Ou seja, se um client envia uma requisição com o caminho (path) para imagens, o ALB envia o tráfego para o server que tenha a finalidade de imagens.
+
+                Vantagens:
+                    Utilizado para roteamentos detalhados e inteligentes.
+
+        NLB - Network Load Balancing:
+            Funciona na camada 4 (transporte) do modelo OSI.
+            Executa o roteamento baseado nas conexões por IPs.
+
+                Vantagens:
+                    Mais rápido (alta performance e menor latência)
+                    Menos inteligente.
