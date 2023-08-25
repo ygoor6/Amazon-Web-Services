@@ -1,0 +1,13 @@
+Amazon RDS - Relational Database Service
+    É uma coleção de serviços gerenciados que facilita a configuração, operação e escalabilidade de banco de dados.
+
+    Opções de RDS
+        Aurora MySQL e PostgreSQL
+        MySQL
+        MariaDB
+        PostgreSQL
+        Oracle
+        SQL Server
+
+Bancos de dados relacionais
+    Um banco de dados relacional é autodescritivo, pois permite que os desenvolvedores definam o esquema do banco de dados, bem como as relações e restrições entre as linhas e as tabelas no banco de dados. Os desenvolvedores confiam na funcionalidade do banco de dados relacional, e não no código da aplicação, para impor o esquema e preservar a integridade referencial dos dados no banco de dados.

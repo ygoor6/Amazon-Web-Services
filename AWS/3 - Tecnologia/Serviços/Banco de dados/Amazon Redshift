@@ -1,0 +1,11 @@
+Amazon Redshift
+    Serviço de data warehouse (armazém de dados) em escala de petabytes totalmente gerenciado.
+    
+    O Amazon Redshift sem servidor permite acessar e analisar dados sem todas as configurações de um data warehouse provisionado.
+
+    Características:
+        Serveless (sem servidor)
+        Escalável
+        10x mais rápido que bancos tradicionais
+        Data warehouse
+        Business Intelligence

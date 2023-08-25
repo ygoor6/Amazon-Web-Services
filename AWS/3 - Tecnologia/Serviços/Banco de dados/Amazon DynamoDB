@@ -1,0 +1,11 @@
+Amazon DynamoDB
+    Banco de dados NoSQL totalmente gerenciado, sem servidor e de chave-valor que oferece performance em  10ms em qualquer escala.
+
+    Características:
+        Serverless (sem servidor)
+        Escalável
+        NoSQL (armazena como itens)
+            Cada iten possui uma chave e o objeto um valor
+
+NoSQL: bancos de dados de documentos e de chave-valor
+    À medida que o sistema cresce, grandes quantidades de dados geralmente estão na forma de dados de chave-valor, nos quais uma única linha é mapeada para uma chave primária. Os bancos de dados de chave-valor são altamente particionáveis e permitem escalabilidade horizontal em níveis que outros tipos de bancos de dados não conseguem alcançar. Casos de uso como jogos, tecnologia publicitária e IoT se adaptam particularmente bem ao modelo de dados de chave-valor, em que os padrões de acesso exigem Gets/Puts de baixa latência para chave-valores conhecidos.

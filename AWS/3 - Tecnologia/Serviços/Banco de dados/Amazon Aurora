@@ -1,0 +1,8 @@
+Amazon Aurora
+    Mecanismo de banco de dados relacional gerenciado compatível com MySQL e o PostgreSQL, que aliam a velocidade e confiabilidade dos bancos de dados comerciais avançados com a simplicidade e a economia dos bancos de dados de código aberto.
+
+    Possui um subsistema de armazenamento de alta performance.
+
+    Compatível com:
+        MySQL
+        PostgreSQL
