@@ -1,0 +1,6 @@
+AWS Detective
+    Facilita a análise, a investigação e a identificação rápidas da causa raiz de potenciais problemas de segurança ou atividades suspeitas. O Amazon Detective coleta automaticamente dados de log deseus recursos da AWS e usa machine learning, análise estatística e teoria dos gráficos para criar um conjunto de dados vinculados que permite realizar facilmente investigações de segurança mais rápidas e eficientes.
+
+Obs.: Detective análise falhas de segurança e GuardDuty detecta ameaças nas contas e workloads da AWS.
+
+O Amazon Detective exige que você tenha o Amazon GuardDuty habilitado em suas contas por pelo menos 48 horas antes de habilitar o Detective nessas contas. No entanto, você pode usar o Amazon Detective para investigar mais do que apenas as descobertas do Amazon GuardDuty.

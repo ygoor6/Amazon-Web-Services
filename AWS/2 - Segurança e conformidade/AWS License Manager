@@ -1,0 +1,4 @@
+AWS License Manager
+    Facilita o gerenciamento de suas licenças de software de fornecedores como Microsoft, SAP, Oracle e IBM em ambientes AWS e on-premises. O AWS License Manager permite que os administradores criem regras de licenciamento personalizadas para refletir os períodos de vigência de seus contratos de licenciamento.
+    
+    Os administradores podem usar essas regras para ajudar a evitar violações de licenciamento, como o uso de mais licenças do que o estipulado em contrato. As regras no AWS License Manager ajudam a evitar uma falha de licenciamento, interrompendo a inicialização da instância ou notificando os administradores sobre a violação.

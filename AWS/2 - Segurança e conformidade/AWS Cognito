@@ -1,0 +1,2 @@
+AWS Cognito
+    Serviço de autenticação que permite adicionar cadastramento, login e controle de acesso de usuários a aplicações Web e móveis com rapidez e facilidade. O Amazon Cognito pode ser escalado para milhões de usuários e oferece suporte a login com provedores de identidade social como Apple, Facebook, Google e Amazon e com provedores de identidade empresariais via SAML 2.0 e OpenID Connect.
