@@ -20,19 +20,19 @@ Acesso a S3 via EC2
 
 Opções de compra de instância
     Sob demanda:
-        Pague pelas instâncias que você iniciar
+        Pague pelas instâncias que você iniciar, é cobrado por hora, indicado quando não é possível estimar o custo para cargas desconhecidas.
 
     Instâncias Reservadas:
-        Reserva de um tipo de instância e a região, por um período de vigência de 1 ou 3 anos
+        Reserva de um tipo de instância e a região, por um período de vigência de 1 ou 3 anos. Indicado para casos onde é possível prever o uso em períodos de 1 ou 3 anos permitindo a contratação antecipada. Apresenta maior economia comparado ao Sob demanda.
     
     Hosts dedicados:
-        Pegue pelo host físico que seja totalmente dedicado à execução das instâncias. Permite usar as licenças de softwares
+        Pegue pelo host físico que seja totalmente dedicado à execução das instâncias. Permite usar as licenças de softwares. Indicado quando é necessário utilizar uma máquina física de maneira exclusiva pelo cliente.
 
     Instância dedicada:
         As instâncias dedicadas são instâncias EC2 executadas em um hardware dedicado a um único cliente
 
     Instâncias spot:
-        Usa capacidade adicional do EC2 que está dispinível por um valor mais baixo que o preço sob demanda
+        Usa capacidade adicional do EC2 que está dispinível por um valor mais baixo que o preço sob demanda. Indicado para casos onde é permitido que o processo seja interrompido e não precise de alta disponibilidade, sendo executado quando algum recurso estiver disponível. Apresenta maior economia comparado aos demais modelos.
 
 User Data
     Ao iniciar é possível adicionar um código, que irá rodar na inicialização da instância.
