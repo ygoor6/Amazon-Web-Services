@@ -1,0 +1,4 @@
+Amazon API Gateway
+    Serviço que permite criar, publicar, manter e proteger APIs. Ele atua como um ponto de entrada para as APIs que permitem a comunicação entre diferentes serviços ou aplicações.
+
+    Serverless, totalmente gerenciado pela AWS que simplifica a gestão de APIs.

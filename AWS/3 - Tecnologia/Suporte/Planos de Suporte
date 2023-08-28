@@ -1,7 +1,7 @@
 Planos de Suporte da AWS
     Atualmente existem 5 diferentes planos de suporte disponíveis:
         Basic:
-            Gratuito para todos os clientes da AWS. Atendimento básico, exemplo abrir um ticket sobre faturamento.
+            Gratuito para todos os clientes da AWS. Atendimento básico, exemplo abrir um ticket sobre faturamento. Para encontrar apoio utilize whitepapers, documentação e comunidades, não é possível abrir um ticket para uma configuração.
         
         Developer:
             Recomendado em casos de testes de serviços da AWS (validação de algum MVP).

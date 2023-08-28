@@ -1,0 +1,15 @@
+Amazon SQS - Amazon Simple Queue Service
+    Serviço simples de fila de mensagens, pronto para uso, gerenciado, escalável e sem necessidade de administração de servidores.
+
+    Também é considerado como um serviço de mensageria, pois reecbe, armazena e envia mensagens entre aplicações.
+
+    Extremamente seguro, permite transacionar dados confidenciais aplicando criptografia nas mensagens com uso de chaves do AWS KMS.
+
+    Tipos de fila:
+        Standard:
+            Não ordena o recebimento e processamento das mensagens.
+
+        FIFO (First In, First Out):
+            Ordena as mensagens sendo as que chegam primeiro, são processadas primeiro.
+
+SQS - Serviço de mensageria que armazena, envia e recebe mensagem em uma fila e tem como propósito desacoplar aplicações.

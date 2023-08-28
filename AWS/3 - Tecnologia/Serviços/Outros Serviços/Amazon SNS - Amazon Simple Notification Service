@@ -1,0 +1,13 @@
+Amazon SNS - Amazon Simple Notification Service
+    É um web service que facilita a configuração, operação e o envio de notificações entre sistemas, aplicações e assinantes de modo geral.
+
+    Trabalha com o sistema de tópicos e pub/sub, que significa publica uma notificação para um tópico onde existem subscrições (inscritos) que vão receber estas notificações.
+
+    Formatos e protocolos:
+        Push
+        SMS
+        HTTP
+        E-mail
+        SQS
+
+SNS - Serviço de notificação. Para notificar eventos, alertas, entre aplicações, envio de push.
