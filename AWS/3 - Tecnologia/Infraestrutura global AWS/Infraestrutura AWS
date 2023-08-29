@@ -1,5 +1,11 @@
 Infraestrutura Global AWS
 
+Atualmente (2023)
+    Regiões: 32 cada uma com várias AZs
+    Zonas de disponibilidade (AZs): 102
+    Zonas locais: 35
+    Zonas do Wavelength: 39
+
     Regiões:
         Locais físicos em todo o mundo onde são agrupados os datacenters
         Possui no mínimo 3 AZs isoladas e separadas fisicamente em uma área geográfica

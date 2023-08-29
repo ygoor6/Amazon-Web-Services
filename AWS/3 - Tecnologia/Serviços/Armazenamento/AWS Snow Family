@@ -1,0 +1,14 @@
+AWS Snow Family
+
+    Snowball:
+        Serviço para clientes que querem transportar terabytes ou petabytes de dados de e para a AWS, ou que querem acessar localmente a capacidade de armazenamento e poder computacional da nuvem AWS de forma econômica em lugares em que a conexão à internet pode não ser uma opção viável.
+
+    Snowball Edge:
+        É um tipo de dispositivo Snowball com armazenamento integrado e capacidade de computação para recursos selecionados da AWS. O Snowball Edge pode realizar processamento local e cargas de trabalho de computação de borda, além de transferir dados entre seu ambiente local e a nuvem AWS.
+
+        Cada dispositivo Snowball Edge pode transportar dados em velocidades mais rápidas que a Internet.
+
+    Snowmobile:
+        Migre ou transporte conjuntos de dados em escala de hexabytes para dentro ou fora da AWS.
+
+        Transfere rapidamente e com segurança até 100 petabytes de dados em um curto intervalo de tempo, tudo projetido em um contêiner resistente à violação, água e temperatura controlada com acesso físico limitado. Puxado por um caminhão semirreboque.
