@@ -1,0 +1,12 @@
+AWS Organizations
+    Serviço de gerenciamento de contas que permite consolidar várias contas da AWS em uma única organização, dando uma gerencia centralizada.
+
+    Forma da AWS prover a segmentação dentro da empresa, exemplo, dividir por ambientes (DEV, HML e PRD). É possível criar contas específicas as AWS Account.
+
+    Estrutura:
+
+        AWS Organizations
+            Master Account / Administrative root
+                Organizational Unit (OU)
+                    AWS Account
+                        AWS Resources

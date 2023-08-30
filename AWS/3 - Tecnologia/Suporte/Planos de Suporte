@@ -5,6 +5,8 @@ Planos de Suporte da AWS
         
         Developer:
             Recomendado em casos de testes de serviços da AWS (validação de algum MVP).
+
+            Envio de e-mails de suporte para AWS, com ticket ilimitados e tempo de resposta de aproximadamente 12 horas.
         
         Business:
             Recomendado para quem tem ambientes de produção na AWS. Possui todas as verificações do AWS Trusted Advisor, tickets de suporte podem ser atendidos por telefone, chat web e conversas (24/7).
