@@ -1,0 +1,24 @@
+Billing & Pricing
+
+    Todos os serviços são cobrados e pagos por segundos, sendo os primeiros 60s obrigatórios (sempre serão cobrados).
+
+    Em suma, são cobrados em cima de 3 pilares:
+        Compute: Computação utilizada
+        Storage: Armazenamento utilizado
+        Transfer Out: Dados baixados (download) da AWS
+
+    Filosofia AWS:
+        Pay As You Go (Pague conforme o uso):
+            Pague apenas pelo que for utilizado.
+
+        Savings Plans:
+            Modelo de preço flexível que pode ajudar você a reduzir sua fatura em até 72% em comparação com os preços sob demanda, comprometendo-se com gastos por hora durante um período de 1 ou 3 anos.
+
+        Pay less by using more (Pague menos usando mais):
+            Descontos baseados em volume e obter economias substanciais à medida que o seu uso aumenta. Para serviços como o S3 e a transferência de dados para FORA do EC2, a definição de preços é feita em camadas, o que significa que quanto mais você usa, menor será o preço por GB.
+
+    Capex (Capital Expenditure)
+        Paga antes de utilizar, normalmente um valor fixo e mais caro. Exemplo, em um datacenter on-premises, é utilizado o Capex pois é necessário comprar o hardware antes de implementar.
+
+    Opex (Operational Expenditure)
+        Paga de acordo com o que utiliza. A AWS em sua maioria utiliza o Opex em casos sob demanda e Capex em casos de reserva (reserved), porém esse modelo na nuvem AWS barateia o custo.

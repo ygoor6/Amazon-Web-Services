@@ -1,0 +1,8 @@
+AWS Budgets
+    Defina orçamentos personalizados para rastrear seus custos e o uso e responda rapidamente a alertas recebidos de notificações por email ou SNS se você exceder seu limite.
+
+    Rastreie custos, uso e abrangência com orçamentos personalizados.
+
+    Possível criar alertas com gatilhos voltados aos valores por exemplo mensal de gasto de uma conta AWS.
+
+Obs.: O Budgets é o orçamento, ou seja, sempre antes de atingir um valor setado.
