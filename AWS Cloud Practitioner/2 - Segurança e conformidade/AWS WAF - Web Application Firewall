@@ -1,0 +1,7 @@
+AWS WAF - Web Application Firewall
+    Serviço de firewall que atua na camada 7 do modelo OSI (Aplicação), fornecendo proteção contra explorações comuns da Web e bots que podem afetar a disponibilidade, comprometer a segurança ou consumir recursos excessivos.
+
+    Você pode proteger suas distribuições do CloudFront com o AWS WAF, um firewall de aplicações da Web que permite proteger suas aplicações e APIs da web para bloquear solicitações antes que elas cheguem aos servidores. Você pode ativar um grupo recomendado pela AWS de proteções de segurança do AWS WAF com um clique ao criar ou editar uma distribuição do CloudFront.
+
+    Por que usar o WAF?
+        É possível criar regras de segurança que controlam o tráfego de bots e bloqueiam padrões de ataque comuns, como injeção de SQL ou cross-site scripting (XSS).

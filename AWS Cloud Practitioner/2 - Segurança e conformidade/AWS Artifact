@@ -1,0 +1,12 @@
+AWS Artifact
+    O AWS Artifact, disponível no console, é um portal de autoatendimento para recuperação de artefatos de auditoria que oferece aos clientes acesso sob demanda à documentação de conformidade e aos acordos da AWS.
+
+    Você pode usar os relatórios do AWS Artifact para fazer download de documentos de segurança e conformidade, como os relatórios de certificações ISO, Payment Card Industry (PCI – Setor de cartões de pagamento) e Organization Control (SOC – Controles de sistema e organização).
+
+    Quem tem acesso?
+        Todas as contas da AWS têm acesso. Os usuários raiz (root) e do IAM com permissões de administrador podem fazer o download de todos os artefatos de auditoria disponíveis na conta concordando com os termos e condições associados.
+
+    O que é um artefato de auditoria?
+        Um artefato de auditoria é um elemento de evidência que demonstra que uma organização segue um processo documentado ou cumpre um requisito específico. Os artefatos de auditoria são coletados e arquivados ao longo do ciclo de vida de desenvolvimento de um sistema e servem como evidência em auditorias e avaliações internas e/ou externas.
+
+        No momento, o AWS Artifact oferece aos clientes relatórios e acordos que podem ser usados como artefatos de auditoria.

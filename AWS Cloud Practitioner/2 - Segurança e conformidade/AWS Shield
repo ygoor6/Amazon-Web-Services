@@ -1,0 +1,4 @@
+AWS Shield
+    Fornece proteção contra ataques de negação de serviço distruibuída (DDoS), sendo de primordial importância para aplicativos voltados à internet.
+
+    Observa o aumento do volume de tráfego e verifica se é genuíno ou se é gerado por algum tipo malicioso. Sendo um DDoS, o tráfego é barrado.
