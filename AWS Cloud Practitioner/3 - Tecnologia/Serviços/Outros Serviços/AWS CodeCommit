@@ -1,0 +1,4 @@
+AWS CodeCommit
+    Serviço de controle de versão hospedado pela AWS que pode ser usado para armazenar e gerenciar ativos de maneira privada (como documentos, código-fonte e arquivos binários) na nuvem.
+
+    Com ele é possível controlar o código-fonte seguro, altamente escalável e gerenciado que hospeda repositórios privados do Git.

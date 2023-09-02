@@ -1,0 +1,4 @@
+AWS CodeDeploy
+    Serviço de automatização de implantações de aplicações em instâncias do EC2, on-premises, funções Lambda ou em serviços ECS.
+
+    CodeDeploypode implantar conteúdo de aplicativos que é executado em um servidor e armazenado em buckets, GitHub repositórios ou repositórios Bitbucket do Amazon S3. CodeDeploytambém pode implantar uma função Lambda.

@@ -1,0 +1,14 @@
+AWS CodeBuild
+    Serviço de compilação totalmente gerenciado na nuvem. O CodeBuild compila seu código-fonte, executa testes de unidade e produz artefatos prontos para implantação. Eliminando a necessidade de provisionar, gerenciar e dimensionar seus próprios servidores de build.
+
+    Fornece ambientes de construção pré-empacotados para linguagens de programação populares e ferramentas de construção.
+
+    Benefícios
+        Totalmente gerenciado:
+            Elimina a necessidade de configurar, corrigir, atualizar e gerenciar seus próprios servidores de compilação.
+
+        Sob demanda:
+            Dimensionado sob demanda para atender às suas necessidades de construção. Você paga apenas pelo número de minutos de construção que consome.
+
+        Pronto para uso:
+            Fornece ambientes de compilação pré-configurados para as linguagens de programação mais populares. Tudo o que você precisa fazer é apontar para o script de construção para iniciar sua primeira construção.
