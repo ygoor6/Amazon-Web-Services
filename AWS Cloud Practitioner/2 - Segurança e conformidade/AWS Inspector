@@ -1,0 +1,4 @@
+AWS Inspector
+    Serviços de gerenciamento de vulnerabilidades que verifica continuamente workloads em busca de vulnerabilidades de software e exposição não intencional da rede.
+    
+    Ele descobre e escaneia automaticamente instâncias EC2 em execução, imagens de containers do ECR (Elastic Container Registry), funções Lambda.

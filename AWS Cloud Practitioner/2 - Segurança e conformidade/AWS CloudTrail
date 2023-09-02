@@ -1,5 +1,5 @@
 AWS CloudTrail
-    Serviço de auditoria capaz de fazer um "trace", ou seja fazer uma trilha de loh, registrando como um evento (um trace, um rastro), tudo que é feito em uma conta da AWS no que diz respeito a chamadas de API realizadas na conta da AWS por usuários, serviços ou funções.
+    Serviço de auditoria capaz de fazer um "trace", ou seja fazer uma trilha de log, registrando como um evento (um trace, um rastro), tudo que é feito em uma conta da AWS no que diz respeito a chamadas de API realizadas na conta da AWS por usuários, serviços ou funções.
 
     Porque trace de chamadas de API?
         Tudo que fazemos na AWS envolve uma chamada de API, seja listar o conteúdo de um bucket do S3, manusear uma EC2, seja por console, CLI, SDK e cada chamada dessa, pode ser registrada pelo CloudTrail.
@@ -8,4 +8,4 @@ AWS CloudTrail
 
     É possível criar um registro contínuo e granular de tudo que é feito na conta. Para isso deve ser manualmente ativade a trilha de auditoria e apontar um local para armazenar os logs.
 
-Obs.: CloudTrail pode ser comparado a um X9 (dedurador)
+Obs.: CloudTrail pode ser comparado a um X9 (dedurador).

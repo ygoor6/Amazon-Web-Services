@@ -1,0 +1,4 @@
+AWS Direct Connect
+    Conecta a rede interna a um local do AWS Direct Connect por meio de um cabo de fibra óptica Ethernet padrão (uma ponta conectada ao roteador e a outra ao roteador AWS Direct Connect).
+
+    Com essa conexão, podemos criar interfaces virtuais diretamente para serviços públicos da AWS, ignorando os provedores de serviços de internet no caminho da rede.

@@ -1,0 +1,12 @@
+AWS VPN - Virtual Private Network
+    As soluções do AWS VPN estabelecem conexões seguras entre redes locais, escritórios remotos, dispositivos de clientes e a rede global da AWS.
+
+    Opções de conectividade
+        AWS Client VPN:
+            Serviço de client VPN que protege o acesso aos recursos da AWS ou da rede on-premises Sendo possível configurar um endpoint para garantir a segurança da conexão de clients por meio de uma sessão de VPN com TLS. Isso permite que os clientes acessem na AWS ou on-premises de qualquer lugar usando um cliente de VPN baseado em OpenVPN.
+
+        AWS Site-to-Site VPN:
+            Cria túneis criptografados entre a sua rede e as VPCs ou os AWS Transit Gateways.
+
+        AWS VPN CloudHub:
+            Se tiver mais de uma rede remota (por exemplo, várias filiais), você poderá criar várias conexões do AWS Site-to-Site VPN por meio do gateway privado virtual, permitindo a comunicação entre as redes.

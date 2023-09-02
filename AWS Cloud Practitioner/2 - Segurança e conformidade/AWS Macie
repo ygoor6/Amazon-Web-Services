@@ -2,3 +2,5 @@ AWS Macie
     Serviço de segurança e privacidade de dados totalmente gerenciado que usa machine learning e correspondência de padrões para descobrir e proteger seus dados confidenciais na AWS.
 
     O Amazon Macie automatiza a descoberta de dados confidenciais em escala e reduz o custo da proteção de seus dados. O Macie fornece automaticamente um inventário de buckets do Amazon S3, incluindo uma lista de buckets não criptografados, buckets acessíveis ao público e buckets compartilhados com as contas da AWS fora as definidas por você no AWS Organizations.
+
+    O Macie detecta automaticamente uma lista grande e crescente de tipos de dados confidenciais, incluindo informações pessoalmente identificáveis (PII), como nomes, endereços e números de cartão de crédito.

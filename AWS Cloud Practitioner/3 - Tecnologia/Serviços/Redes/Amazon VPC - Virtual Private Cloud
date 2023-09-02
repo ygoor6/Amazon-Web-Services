@@ -1,0 +1,31 @@
+Amazon VPC - Virtual Private Cloud
+    Permite executar recursos da AWS em uma rede virtual definida pelo usuário. Se assemelha a uma rede tradicional de um datacenter on-premises, com os benefícios de usar a infraestrutura dimensionável da AWS.
+
+    A Conta da AWS inclui uma VPC padrão em cada Região da AWS. As VPCs padrão são configuradas de modo que você possa começar imediatamente a iniciar instâncias do EC2 e conectar-se a elas.
+
+    Recursos
+        VPC - Virtual Private Cloud:
+            Rede virtual muito semelhante a uma rede tradicional de um datacenter on-premises. Após criar uma VPC, pode-se criar as sub-redes.
+        
+        Sub-redes:
+            Gama de endereços IP na VPC. Uma sub-rede deve residir em uma única zona de disponibilidade. Após adicionar as sub-redes, pode-se implantar os recursos da AWS na VPC.
+        
+        Roteamento:
+            Tabelas de rotas para determinar para onde o tráfego da sub-rede ou do gateway será direcionado.
+
+        Security Groups (Grupos de segurança):
+            Um grupo de segurança atua como um firewall que controla o tráfego permitindo ou negando o tráfego (entrada e saída) da VPC. É possível escolher as portas e os protocolos.
+        
+        Gateways e endpoints:
+            Um gateway conecta a VPC a uma outra rede. Por exemplo:
+                1 - Internet Gateway para conectar a VPC à internet.
+                2 - AWS PrivateLink para conectar serviços AWS de modo privado, sem usar um Internet Gateway ou NAT.
+
+        AWS Transit Gateway:
+            Funciona como um hub central para rotear tráfego entre VPCs, conexões VPN e conexões do AWS Direct Connect.
+
+        Flow Logs:
+            Um recurso que possibilita que você capture informações sobre o tráfego de IP para e  proveniente de interfaces de rede da VPC. Os dados do log de fluxo podem ser publicados nos seguintes locais, Amazon CloudWatch Logs, Amazon S3 ou Amazon Kinesis Data Firehose. Depois de criar um log de fluxo, você poderá recuperar e visualizar os registros do log de fluxo no grupo de logs, no bucket ou no fluxo de entrega configurado.
+
+        AWS VPN:
+            Conecte as VPCs às redes on-premises usando a AWS Virtual Private Network (AWS VPN).

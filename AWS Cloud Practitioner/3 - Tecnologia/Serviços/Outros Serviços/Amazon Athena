@@ -1,4 +1,8 @@
 Amazon Athena
-    Serviço de análise interativo e sem servidor criado em frameworks de código aberto, com suporte a formatos de tabela e arquivos abertos. Fornece uma maneira simplificada e flexível de analisar petabytes de dados onde eles residem.
+    Serviço de consultas interativas que facilita a análise de dados no Amazon S3 usando SQL padrão. O Athena não usa servidor, de forma que não existe uma infraestrutura para configurar ou gerenciar; é possível começar a analisar os dados imediatamente. Não é necessário nem mesmo carregar dados no Athena, ele trabalha diretamente com os dados armazenados no S3.
+    
+    Fornece uma maneira simplificada e flexível de analisar petabytes de dados onde eles residem.
 
     Pague com base nas consultas que você executa ou nos cálculos usados.
+
+    Busca informações por queries estruturadas (SQL).
