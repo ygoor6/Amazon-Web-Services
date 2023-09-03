@@ -1,0 +1,6 @@
+AWS Global Accelerator
+    Serviço de rede que ajuda a melhorar a disponibilidade, a performance e a segurança de aplicações públicas.
+
+    Fornece dois IPs públicos estáticos globais que atuam como ponto de entrada fixo para os endpoints de aplicações como ALB, NLB, EC2 e Elastic IPs.
+
+    Cria aceleradores para melhorar a disponibilidade e o desempenho de aplicativos da internet usados por um público global.

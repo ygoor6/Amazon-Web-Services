@@ -1,0 +1,8 @@
+AWS CloudFormation
+    Permite modelar, provisionar e gerenciar recursos da AWS e de terceiros ao tratar infraestrutura como código (IaaC).
+
+    Exemplo:
+        Quando você cria uma pilha, o AWS CloudFormation faz chamadas do serviço subjacente para a AWS para provisionar e configurar seus recursos. O CloudFormation pode executar apenas as ações que você tem permissão para executar.
+
+    AWS CloudFormation Templates:
+        Simplifica o provisionamento e o gerenciamento na AWS. Sendo possível criar modelos para as arquiteturas de serviços ou aplicativos desejados e fazer o CloudFormation usar esses modelos para provisionamento rápido e fácil dos serviços ou aplicativos ("pilhas").

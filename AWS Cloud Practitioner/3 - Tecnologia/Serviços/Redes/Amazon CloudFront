@@ -1,0 +1,6 @@
+Amazon CloudFront
+    Serviço de rede de entrega de conteúdo (CDN - Content Delivery Network) criado para alta performance, segurança e conveniência do desenvolvedor. Tudo com baixa latência e altas velocidades de transferência.
+
+    Ele acelera a distribuição do conteúdo estático e dinâmico da web para os usuários.
+
+    Estão alocados na borda da AWS, nas Edge Locations.
