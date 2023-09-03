@@ -1,0 +1,4 @@
+AWS DMS - Database Migration Service
+    Serviço de nuvem que possibilita a migração de bancos de dados relacionais, data warehouses, bancos de dados NoSQL e outros tipos de armazenamento de dados.
+
+    Pode ser usado para migrar os dados para a AWS ou entre combinações de configurações na nuvem e locais.

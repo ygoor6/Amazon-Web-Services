@@ -1,0 +1,2 @@
+AWS Config
+    Fornece uma visão detalhada da configuração dos recursos da AWS na conta. Isso inclui como os recursos estão relacionados entre si e como foram configurados no passado para que você possa ver como as configurações e os relacionamentos mudam ao longo do tempo.

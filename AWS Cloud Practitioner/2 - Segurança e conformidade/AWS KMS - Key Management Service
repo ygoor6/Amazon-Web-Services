@@ -1,0 +1,4 @@
+AWS KMS - Key Management Service
+    Serviço gerenciado que facilita a criação e o controle das chaves criptográficas usadas para proteger seus dados. O AWS KMS usa módulos de segurança de hardware (HSM) para proteger e validar suas chaves.
+
+    AWS KMS integra-se à maioria dos outros serviços da AWSque criptografam seus dados. O AWS KMS também se integra ao AWS CloudTrail para registrar o uso de suas chaves KMS para necessidades de auditoria, regulamentação e conformidade.

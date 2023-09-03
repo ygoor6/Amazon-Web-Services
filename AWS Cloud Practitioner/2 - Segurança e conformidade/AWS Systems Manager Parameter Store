@@ -1,0 +1,4 @@
+AWS Systems Manager Parameter Store
+    O Parameter Store, um recurso do AWS Systems Manager, oferece armazenamento hierárquico seguro para gerenciamento de dados de configuração e gerenciamento de segredos. Você pode armazenar dados, como senhas, strings de banco de dados, IDs de Amazon Machine Images (AMIs) e códigos de licença como valores de parâmetro.
+
+    Você pode armazenar valores como texto sem formatação ou dados criptografados. Você pode referenciar parâmetros do Systems Manager em seus scripts, comandos, documentos do SSM e fluxos de trabalho de configuração e automação usando o nome exclusivo especificado ao criar o parâmetro.
